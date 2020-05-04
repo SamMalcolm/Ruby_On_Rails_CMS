@@ -1,1 +1,17 @@
 <h1> This is trhe hello page</h1>
+
+<%= 1+1 %>
+
+<br />
+
+<% target = "World!" %>
+
+<%= "Hello #{target}" %>
+
+<% @array.each do |n|%>
+<p><%= n %></p>
+<% end %>
+
+<br />
+
+<%= link_to('Hello page 2', {:action => 'index'}) %>
