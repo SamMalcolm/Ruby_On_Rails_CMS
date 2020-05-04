@@ -1,0 +1,10 @@
+<h1>contact</h1>
+<%= link_to('Go to about', {:action => 'about'})%>
+
+<% if (params[:country] == "uk") then%>
+PH: <%= "040040404" %>
+<% elsif (params[:country] == "us") then%>
+PH: <%= "12341234" %>
+<% else %>
+PH: <%= "4444444" %>
+<% end %>
